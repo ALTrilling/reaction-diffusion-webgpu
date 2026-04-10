@@ -1,3 +1,5 @@
 Note: DO NOT RUN THIS IN CHROMIUM. IT IS VERY SLOW. USE FIREFOX.
+
 If I have time in future I'm going to make something more like a full on [NeuralPatterns](https://github.com/MaxRobinsonTheGreat/NeuralPatterns) program, but making use of WebGPU instead of WebGL. Lenia is another example of this where the inner workings are explicit. On the more visual side, you have something like [MarkovJunior](https://github.com/mxgmn/MarkovJunior) which allows for describing rewrites of a grid into a new one. Which I first heard about from the [TodePond Video](https://www.youtube.com/watch?v=eQgxFuw8f1U)
+
 Rather than going too far into the analysis paralysis angle, I just picked out some values that I thought looked nice and visually paired well with visual interaction. As it where, I quite like the ones I went with. They kind of remind me of voronoi patterns, but with a more fungal, “gooier” texture. I also enjoyed playing with the distance parameter, as that sometimes allowed the molds to be able to “work together in more complex patterns”. On a related note, for my change, I used a stylemap where the values are the distances.
