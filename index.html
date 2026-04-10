@@ -1,0 +1,15 @@
+<!doctype html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment 2</title>
+</head>
+<body>
+  <canvas id="gpu-canvas"></canvas>
+  <script type="module" src="main.js"></script>
+  <script>
+  // Hot reloading during development.
+  (new WebSocket(`ws://${location.host}/ws`)).onmessage = (event) => {
+    if (event.data === "reload") location.reload();
+  };
+  </script>
+</body>
